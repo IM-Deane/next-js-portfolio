@@ -82,10 +82,10 @@ const Timeline = () => {
 				/>
 			</ProfileCard>
 			<SectionText style={{ marginTop: "20px" }}>
-				Hi there, my name is Tristan and I'm a web developer from Edmonton,
+				Hey there, my name is Tristan and I'm a web developer from Edmonton,
 				Alberta.
 				<span style={{ margin: "0 8px" }}>
-					<Image width="20px" height="20px" src={"/images/canadian-flag.svg"} />
+					<Image width={20} height={20} src={"/images/canadian-flag.svg"} />
 				</span>{" "}
 				I'm 28 years old and have just begun my journey in this exciting
 				industry.
