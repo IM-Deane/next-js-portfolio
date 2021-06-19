@@ -44,17 +44,17 @@ export const projects = [
 
 // Data for About section timeline
 export const TimeLineData = [
-	{ year: 2017, text: "Started my journey" },
-	{ year: 2018, text: "Worked as a freelance developer" },
-	{ year: 2019, text: "Founded JavaScript Mastery" },
-	{ year: 2020, text: "Shared my projects with the world" },
-	{ year: 2021, text: "Started my own platform" },
+	{ year: 2019, text: "Started my journey at University of Athabasca" },
+	{ year: 2020, text: "Picked up coding again during COVID-19" },
+	{ year: 2020, text: "Enrolled in NAIT's Software Development program" },
+	{ year: 2021, text: "Began working with TCA Developments" },
+	{ year: 2021, text: "Created an online Job board with a colleague" },
 ];
 
 // Data for accomplishments section
 export const accomplishments = [
-	{ number: 20, text: "Open Source Projects" },
-	{ number: 1000, text: "Students" },
-	{ number: 1900, text: "Github Followers" },
-	{ number: 5000, text: "Github Stars" },
+	{ number: 3, text: "Full-Stack Projects" },
+	{ number: 4, text: "Freelance projects" },
+	{ number: 3.5, text: "GPA" },
+	{ number: 100, text: "Increase in clients revenue due to website" },
 ];

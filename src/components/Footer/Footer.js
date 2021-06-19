@@ -54,13 +54,13 @@ const Footer = () => {
 					</Slogan>
 				</CompanyContainer>
 				<SocialIconsContainer>
-					<SocialIcons href="https://github.com">
+					<SocialIcons href="https://github.com/IM-Deane">
 						<AiFillGithub size="3rem" />
 					</SocialIcons>
-					<SocialIcons href="https://linkedin.com">
+					<SocialIcons href="https://www.linkedin.com/in/tristan-deane-278781102/">
 						<AiFillLinkedin size="3rem" />
 					</SocialIcons>
-					<SocialIcons href="https://instagram.com">
+					<SocialIcons href="https://www.instagram.com/trizzeydeane6/">
 						<AiFillInstagram size="3rem" />
 					</SocialIcons>
 				</SocialIconsContainer>

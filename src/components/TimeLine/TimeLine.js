@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
-import { Img } from "../Projects/ProjectsStyles";
-
-// import portfolioPic from "/images/portfolio-main-400w.jpg";
+import Image from "next/image";
 
 import {
 	ProfileCard,
@@ -73,14 +71,24 @@ const Timeline = () => {
 
 	return (
 		<Section id="about">
-			<SectionTitle>About</SectionTitle>
+			<SectionTitle>About me</SectionTitle>
 			{/* Lead */}
 			<ProfileCard>
-				{/* <Img src={portfolioPic} alt="Profile photo of Tristan Deane" /> */}
+				<Image
+					width={400}
+					height={450}
+					src={"/images/portfolio-main-400w.jpg"}
+					alt="Profile photo of Tristan Deane"
+				/>
 			</ProfileCard>
-			<SectionText>
-				I'm a web developer from Edmonton, Alberta. I'm 28 years old and have
-				just begun my journey in this exciting industry.
+			<SectionText style={{ marginTop: "20px" }}>
+				Hi there, my name is Tristan and I'm a web developer from Edmonton,
+				Alberta.
+				<span style={{ margin: "0 8px" }}>
+					<Image width="20px" height="20px" src={"/images/canadian-flag.svg"} />
+				</span>{" "}
+				I'm 28 years old and have just begun my journey in this exciting
+				industry.
 			</SectionText>
 			{/* Skill overview */}
 			<SectionText>
@@ -99,8 +107,13 @@ const Timeline = () => {
 				</a>
 			</SectionText>
 			<SectionText>
-				After a successful launch of the company site, I went on to create a
-				dashboard web app to visualize their administrative data.
+				After a successful launch, I went on to create a dashboard web app to
+				visualize their administrative data.
+			</SectionText>
+			<SectionText>
+				Currently, I am in process of designing a scheduling app that enables
+				managers to assign employees to job sites (think Jobber) and manage
+				their tasks in real-time.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
@@ -171,7 +184,6 @@ const Timeline = () => {
 					</CarouselButton>
 				))}
 			</CarouselButtons>
-			<SectionDivider />
 		</Section>
 	);
 };

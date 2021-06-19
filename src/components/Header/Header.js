@@ -25,7 +25,7 @@ const Header = () => (
 						marginBottom: "20px",
 					}}
 				>
-					<GiAbstract091 size="3rem" style={{ marginRight: "8px" }} />{" "}
+					<GiAbstract091 size="3rem" style={{ margin: "0 10px" }} />{" "}
 					<Span>Tristan Deane</Span>
 				</a>
 			</Link>
@@ -48,13 +48,13 @@ const Header = () => (
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons href="https://github.com">
+			<SocialIcons href="https://github.com/IM-Deane">
 				<AiFillGithub size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://linkedin.com">
+			<SocialIcons href="https://www.linkedin.com/in/tristan-deane-278781102/">
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://instagram.com">
+			<SocialIcons href="https://www.instagram.com/trizzeydeane6/">
 				<AiFillInstagram size="3rem" />
 			</SocialIcons>
 		</Div3>

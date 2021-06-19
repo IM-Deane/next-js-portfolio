@@ -16,8 +16,8 @@ const Hero = () => (
 			</SectionTitle>
 			<SectionText>
 				The goal of this site is to exhibit my various creations. Currently, I
-				am playing with the MERN stack and so my projects will reflect this
-				exciting niche.
+				am playing with the MERN stack and so my latest projects will reflect
+				this exciting niche.
 			</SectionText>
 			{/* CTA */}
 			<Button onClick={() => (window.location = "#projects")}>

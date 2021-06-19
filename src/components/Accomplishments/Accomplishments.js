@@ -11,6 +11,7 @@ import { accomplishments } from "../../constants/constants";
 
 const Accomplishments = () => (
 	<Section>
+		<SectionDivider style={{ marginBottom: "22px" }} />
 		<SectionTitle>Personal Accomplishments</SectionTitle>
 		<Boxes>
 			{accomplishments.map((card, index) => (
