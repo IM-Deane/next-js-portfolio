@@ -76,7 +76,7 @@ const Timeline = () => {
 			<ProfileCard>
 				<Image
 					width={400}
-					height={450}
+					height={500}
 					src={"/images/portfolio-main-400w.jpg"}
 					alt="Profile photo of Tristan Deane"
 				/>
