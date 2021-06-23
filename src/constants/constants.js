@@ -33,11 +33,11 @@ export const projects = [
 	{
 		title: "Unichat",
 		description:
-			"This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-		image: "/images/4.jpg",
+			"Unichat was created to learn more about React and solidify my ability to work with API's. It is a Real-Time web based chat application that utilizes Firebase & Chat Engine.",
+		image: "/images/unichat-thumbnail.jpg",
 		tags: ["React", "ChatEngine", "Firebase"],
-		source: "https://google.com",
-		visit: "https://google.com",
+		source: "https://github.com/IM-Deane/unichat-project",
+		visit: "https://unichat-project-im-deane.netlify.app/",
 		id: 3,
 	},
 ];
