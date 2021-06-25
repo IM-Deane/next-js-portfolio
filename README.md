@@ -1,3 +1,50 @@
 ## Personal Portfolio
 
 ![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+
+Current Version : 1.0.0
+
+# Description:
+
+This project is my personal portfolio website. Its main purpose is to host my
+projects at
+[https://tristandeaneportfolio.com](https://tristandeaneportfolio.com).
+
+The main users of this site will be potential employers and freelance clients.
+Although, I'm sure i'll point my friends and family this way as well :)
+
+A secondary outcome of this site is to learn more about Next.js and styled
+components.
+
+The site features all of the major sections you would expect from a portfolio.
+
+# Sections/Features:
+
+- _Responsive Navbar:_ The nav will collapse on smaller screens and mobile
+  devices. The links in this bar lead to different sections of the _same page_.
+  To access the project gallery, visitors must click the link in the spotlight
+  section. My rational for this is that I would rather them see my 4 best
+  projects before moving to the main gallery.
+
+- _Hero banner_ with a CTA button
+
+- _Project spotlight:_ Highlights the top 4 projects that demonstrate my skills.
+
+- _Technologies:_ Outlines the various web development technologies i'm familiar
+  with.
+
+- _About:_ Provides visitors with a brief overview of who I am. The section will
+  link to a separate about page that has a more indepth profile.
+
+- _Personal Accomplishments:_ highlights my most relevant accomplishments. This
+  includes the number of difficut projects i've completed (fullstack or
+  otherwise), the number of freelance projects i've completed, my GPA (this will
+  change once i've graduated), and another box which i've yet to add.
+- _Footer:_ which includes my contact details and social media profiles. It also
+  highlights an interesting fact about the technology i'm currently learning.
+
+# Version History:
+
+_Version 1.0.0:_
+
+This version includes the landing page and a project gallery page.

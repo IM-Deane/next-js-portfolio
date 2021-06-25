@@ -1,14 +1,15 @@
 // Data for project cards
-export const projects = [
+export const projectData = [
 	{
 		title: "MERN Memories",
 		description:
-			"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+			"This app utilizes the MERN stack to create a small-scale social media application. Users can create an account or login using their Google accounts. Once logged in, the user can create posts and like posts created by others.",
 		image: "/images/1.png",
 		tags: ["Mongo", "Express", "React", "Node"],
 		source: "https://github.com/IM-Deane/mern-memories",
 		visit: "https://google.com",
 		id: 0,
+		isFeatured: true,
 	},
 	{
 		title: "E-Commerce",
@@ -19,26 +20,51 @@ export const projects = [
 		source: "https://google.com",
 		visit: "https://google.com",
 		id: 1,
+		isFeatured: true,
 	},
 	{
-		title: "WebRTC App",
+		title: "TCA Developments",
 		description:
-			"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-		image: "/images/3.jpg",
-		tags: ["React", "WebRTC"],
-		source: "https://google.com",
-		visit: "https://google.com",
+			"TCA Developments is a general contracting company that specializes in commerical construction and rennovation. I was commissioned to redesign their company website.",
+		image: "/images/projects/tca-developments-thumbnail.jpg",
+		tags: ["React", "Bootstrap 5"],
+		source: "https://github.com/IM-Deane/tca-developments-website",
+		visit: "https://www.tcadevelopments.com/",
 		id: 2,
+		isFeatured: true,
 	},
 	{
 		title: "Unichat",
 		description:
 			"Unichat was created to learn more about React and solidify my ability to work with API's. It is a Real-Time web based chat application that utilizes Firebase & Chat Engine.",
-		image: "/images/unichat-thumbnail.jpg",
+		image: "/images/projects/unichat-thumbnail.jpg",
 		tags: ["React", "ChatEngine", "Firebase"],
 		source: "https://github.com/IM-Deane/unichat-project",
 		visit: "https://unichat-project-im-deane.netlify.app/",
 		id: 3,
+		isFeatured: true,
+	},
+	{
+		title: "Humble Pie",
+		description:
+			"Humble pie was a final project created during my studies at NAIT. Our task was to create a multi-page website using HTML5 & CSS3. To add more functionality, I implemented an express server to handle form submissions.",
+		image: "/images/projects/humble-pie-thumbnail.jpg",
+		tags: ["HTML5", "CSS3", "Express"],
+		source: "https://github.com/IM-Deane/humble-pie",
+		visit: "https://humble-pie.herokuapp.com/",
+		id: 4,
+		isFeatured: false,
+	},
+	{
+		title: "Unichat",
+		description:
+			"Unichat was created to learn more about React and solidify my ability to work with API's. It is a Real-Time web based chat application that utilizes Firebase & Chat Engine.",
+		image: "/images/projects/unichat-thumbnail.jpg",
+		tags: ["React", "ChatEngine", "Firebase"],
+		source: "https://github.com/IM-Deane/unichat-project",
+		visit: "https://unichat-project-im-deane.netlify.app/",
+		id: 5,
+		isFeatured: false,
 	},
 ];
 

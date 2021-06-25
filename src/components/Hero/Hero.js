@@ -15,13 +15,13 @@ const Hero = () => (
 				Hello World! <br /> Welcome to my web development portfolio.
 			</SectionTitle>
 			<SectionText>
-				The goal of this site is to exhibit my various creations. Currently, I
-				am playing with the MERN stack and so my latest projects will reflect
-				this exciting niche.
+				The goal of this site is to exhibit my various creations. I am currently
+				playing with the MERN stack, so my latest projects will reflect this
+				exciting niche.
 			</SectionText>
 			{/* CTA */}
 			<Button onClick={() => (window.location = "#projects")}>
-				Discover more
+				Discover Projects
 			</Button>
 		</LeftSection>
 	</Section>

@@ -41,7 +41,7 @@ const Technologies = () => (
 					<ListTitle>Back-End</ListTitle>
 					<ListParagraph>
 						Experience with <br />
-						Node.js | MySQL, MongoDB
+						Node.js | Databases
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
