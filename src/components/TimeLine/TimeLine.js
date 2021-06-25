@@ -22,10 +22,6 @@ import {
 	SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
-import styled from "styled-components";
-
-// Icons
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
