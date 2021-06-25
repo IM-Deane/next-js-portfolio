@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import Image from "next/image";
-
 import {
 	ProfileCard,
 	ReadMoreContainer,
+	ReadMoreLink,
 	CarouselButton,
 	CarouselButtonDot,
 	CarouselButtons,
@@ -24,19 +24,22 @@ import {
 import { TimeLineData } from "../../constants/constants";
 import styled from "styled-components";
 
+// Icons
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
 	const [activeItem, setActiveItem] = useState(0);
 	const carouselRef = useRef();
 
-	// Toggles the read more section of the writeup
 	const [readMore, setReadMore] = useState(false);
 
 	const scroll = (node, left) => {
 		return node.scrollTo({ left, behavior: "smooth" });
 	};
 
+	// Handler for carousel
 	const handleClick = (e, i) => {
 		e.preventDefault();
 
@@ -51,8 +54,8 @@ const Timeline = () => {
 		}
 	};
 
-	const toggleReadMore = (prevState) => {
-		setReadMore(!prevState);
+	const toggleReadMore = () => {
+		setReadMore(!readMore);
 	};
 
 	// Set active item based on how far the user has scrolled
@@ -67,6 +70,33 @@ const Timeline = () => {
 			setActiveItem(index);
 		}
 	};
+
+	// Extra content rendered when user clicks read more link
+	const readMoreContent = (
+		<div>
+			<SectionText>
+				Over the past few months, I have been working with a construction
+				company called TCA Developments. A majority of my time has been spent on
+				the design and creation of their{" "}
+				<a
+					style={{ textDecoration: "underline" }}
+					href="https://tcadevelopments.com"
+					target="_blank"
+				>
+					website.
+				</a>
+			</SectionText>
+			<SectionText>
+				After a successful launch, I went on to create a dashboard web app to
+				visualize their administrative data.
+			</SectionText>
+			<SectionText>
+				Currently, I am in process of designing a scheduling app that enables
+				managers to assign employees to job sites (think Jobber) and manage
+				their tasks in real-time.
+			</SectionText>
+		</div>
+	);
 
 	// // Snap back to beginning of scroll when window is resized
 	// // avoids a bug where content is covered up if coming from smaller screen
@@ -106,29 +136,15 @@ const Timeline = () => {
 				using languages such as Python and Java, my current focus has been on
 				JavaScript, React.js, and Next.js.
 			</SectionText>
-			{/* More in depth info */}
-			<a onClick={toggleReadMore}>
-				{readMore ? "Show More..." : "Show less..."}
-			</a>
-			<ReadMoreContainer readMore>
-				<SectionText>
-					Over the past few months, I have been working with a construction
-					company called TCA Developments. A majority of my time has been spent
-					on the design and creation of their{" "}
-					<a href="https://tcadevelopments.com" target="_blank">
-						website.
-					</a>
-				</SectionText>
-				<SectionText>
-					After a successful launch, I went on to create a dashboard web app to
-					visualize their administrative data.
-				</SectionText>
-				<SectionText>
-					Currently, I am in process of designing a scheduling app that enables
-					managers to assign employees to job sites (think Jobber) and manage
-					their tasks in real-time.
-				</SectionText>
+			{/* Extra content */}
+			<ReadMoreContainer>
+				<ReadMoreLink onClick={toggleReadMore}>
+					{readMore ? "- Read less" : ` + Read more`}
+				</ReadMoreLink>
+
+				<div>{readMore && readMoreContent}</div>
 			</ReadMoreContainer>
+
 			{/* Timeline carousel */}
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>

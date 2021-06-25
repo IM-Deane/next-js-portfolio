@@ -10,9 +10,20 @@ export const ProfileCard = styled.div`
 	}
 `;
 
-// The container is displayed conditionally (depends on whether clicks the link)
-export const ReadMoreContainer = styled.div`
-	display: ${(props) => props.readMore && "initial"};
+export const ReadMoreContainer = styled.article`
+	margin-bottom: 40px;
+`;
+
+// Toggles extra content depending on click
+export const ReadMoreLink = styled.a`
+	color: white;
+	font-size: 2rem;
+
+	cursor: pointer;
+	&:hover {
+		font-size: 2.1rem;
+		transition: 0.3s;
+	}
 `;
 
 export const CarouselContainer = styled.ul`

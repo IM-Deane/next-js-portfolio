@@ -2,7 +2,7 @@
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-Current Version : 1.0.0
+Current Version : 1.0.1
 
 # Description:
 
@@ -44,6 +44,15 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 # Version History:
+
+_Version 1.0.1:_
+
+Updated the timeline write up to render content conditionally. Instead of
+displaying the entire auther profile on page load, the user has the option of
+reading more about me if they're curious.
+
+I believe this update keeps my profile concise for those visitors who are just
+scanning.
 
 _Version 1.0.0:_
 

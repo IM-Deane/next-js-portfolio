@@ -41,7 +41,7 @@ const Projects = () => {
 			<SectionText>
 				You can discover more of my work by viewing my{" "}
 				<Link href="/projects">
-					<a>project gallery</a>
+					<a style={{ textDecoration: "underline" }}>project gallery</a>
 				</Link>
 				.
 			</SectionText>
