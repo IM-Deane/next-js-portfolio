@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import {
 	ProfileCard,
+	ReadMoreContainer,
 	CarouselButton,
 	CarouselButtonDot,
 	CarouselButtons,
@@ -21,12 +22,16 @@ import {
 	SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
+import styled from "styled-components";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
 	const [activeItem, setActiveItem] = useState(0);
 	const carouselRef = useRef();
+
+	// Toggles the read more section of the writeup
+	const [readMore, setReadMore] = useState(false);
 
 	const scroll = (node, left) => {
 		return node.scrollTo({ left, behavior: "smooth" });
@@ -44,6 +49,10 @@ const Timeline = () => {
 
 			scroll(carouselRef.current, scrollLeft);
 		}
+	};
+
+	const toggleReadMore = (prevState) => {
+		setReadMore(!prevState);
 	};
 
 	// Set active item based on how far the user has scrolled
@@ -97,24 +106,30 @@ const Timeline = () => {
 				using languages such as Python and Java, my current focus has been on
 				JavaScript, React.js, and Next.js.
 			</SectionText>
-			{/* More in depth */}
-			<SectionText>
-				Over the past few months, I have been working with a construction
-				company called TCA Developments. A majority of my time has been spent on
-				the design and creation of their{" "}
-				<a href="https://tcadevelopments.com" target="_blank">
-					website.
-				</a>
-			</SectionText>
-			<SectionText>
-				After a successful launch, I went on to create a dashboard web app to
-				visualize their administrative data.
-			</SectionText>
-			<SectionText>
-				Currently, I am in process of designing a scheduling app that enables
-				managers to assign employees to job sites (think Jobber) and manage
-				their tasks in real-time.
-			</SectionText>
+			{/* More in depth info */}
+			<a onClick={toggleReadMore}>
+				{readMore ? "Show More..." : "Show less..."}
+			</a>
+			<ReadMoreContainer readMore>
+				<SectionText>
+					Over the past few months, I have been working with a construction
+					company called TCA Developments. A majority of my time has been spent
+					on the design and creation of their{" "}
+					<a href="https://tcadevelopments.com" target="_blank">
+						website.
+					</a>
+				</SectionText>
+				<SectionText>
+					After a successful launch, I went on to create a dashboard web app to
+					visualize their administrative data.
+				</SectionText>
+				<SectionText>
+					Currently, I am in process of designing a scheduling app that enables
+					managers to assign employees to job sites (think Jobber) and manage
+					their tasks in real-time.
+				</SectionText>
+			</ReadMoreContainer>
+			{/* Timeline carousel */}
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
 					{TimeLineData.map((item, index) => (

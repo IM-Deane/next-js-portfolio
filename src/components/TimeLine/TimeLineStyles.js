@@ -10,6 +10,11 @@ export const ProfileCard = styled.div`
 	}
 `;
 
+// The container is displayed conditionally (depends on whether clicks the link)
+export const ReadMoreContainer = styled.div`
+	display: ${(props) => props.readMore && "initial"};
+`;
+
 export const CarouselContainer = styled.ul`
 	max-width: 1040px;
 	background: #0f1624;
