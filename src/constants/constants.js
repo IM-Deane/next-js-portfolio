@@ -80,7 +80,7 @@ export const TimeLineData = [
 // Data for accomplishments section
 export const accomplishments = [
 	{ number: 3, text: "Full-Stack Projects" },
-	{ number: 4, text: "Freelance projects" },
+	{ number: 2, text: "Freelance projects" },
 	{ number: 3.5, text: "GPA" },
-	{ number: 100, text: "Increase in clients revenue due to website" },
+	// { number: 100, text: "Increase in clients revenue due to website" },
 ];

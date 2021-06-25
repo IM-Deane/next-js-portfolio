@@ -4,6 +4,7 @@ import Image from "next/image";
 import {
 	ProfileCard,
 	ReadMoreContainer,
+	ReadMoreBg,
 	ReadMoreLink,
 	CarouselButton,
 	CarouselButtonDot,
@@ -17,7 +18,6 @@ import {
 } from "./TimeLineStyles";
 import {
 	Section,
-	SectionDivider,
 	SectionText,
 	SectionTitle,
 } from "../../styles/GlobalComponents";

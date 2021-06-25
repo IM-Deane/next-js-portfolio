@@ -14,6 +14,33 @@ export const ReadMoreContainer = styled.article`
 	margin-bottom: 40px;
 `;
 
+export const ReadMoreBg = styled.div`
+	width: 100%;
+	height: 100%;
+
+	background: linear-gradient(
+		-45deg,
+		#b86046,
+		rgb(82, 52, 52),
+		#181d1f,
+		#a3a3a3
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+`;
+
 // Toggles extra content depending on click
 export const ReadMoreLink = styled.a`
 	color: white;
@@ -23,6 +50,22 @@ export const ReadMoreLink = styled.a`
 	&:hover {
 		font-size: 2.1rem;
 		transition: 0.3s;
+	}
+
+	background: linear-gradient(-45deg, #2c304d, #006bb8, #181d1f, #a3a3a3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
 	}
 `;
 

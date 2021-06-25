@@ -60,9 +60,7 @@ const projects = () => {
 								</TitleContent>
 								<CardInfo>{description}</CardInfo>
 								<div>
-									<TitleContent style={{ marginTop: "10px" }}>
-										Stack
-									</TitleContent>
+									<TitleContent>Stack</TitleContent>
 									<TagList>
 										{tags.map((tag, index) => (
 											<Tag key={index}>{tag}</Tag>
