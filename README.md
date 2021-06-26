@@ -1,10 +1,10 @@
-## Personal Portfolio
+# Personal Portfolio
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-Current Version : 1.0.2
+### Current Version : 1.0.2
 
-# Description:
+## Description:
 
 This project is my personal portfolio website. Its main purpose is to host my
 projects at
@@ -18,7 +18,7 @@ components.
 
 The site features all of the major sections you would expect from a portfolio.
 
-# Sections/Features:
+### Sections/Features:
 
 - _Responsive Navbar:_ The nav will collapse on smaller screens and mobile
   devices. The links in this bar lead to different sections of the _same page_.
@@ -43,7 +43,7 @@ The site features all of the major sections you would expect from a portfolio.
 - _Footer:_ which includes my contact details and social media profiles. It also
   highlights an interesting fact about the technology i'm currently learning.
 
-# Version History:
+## Version History:
 
 _Version 1.0.2:_
 
