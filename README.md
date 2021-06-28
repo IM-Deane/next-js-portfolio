@@ -1,8 +1,10 @@
 # Personal Portfolio
 
+TODO: Add a link to the portfolio website
+
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.0.2
+### Current Version : 1.0.3
 
 ## Description:
 
@@ -44,6 +46,19 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 ## Version History:
+
+_Version 1.0.3:_
+
+_Major:_
+
+Added the _Historical Figures_ website to the project gallery and spotlight.
+This application demonstrates my ability to create a fullstack MERN project.
+
+The site server is hosted on heroku while the client is hosted on netlify.
+
+_Minor:_
+
+- Updated the contact e-mail address to my personal email.
 
 _Version 1.0.2:_
 

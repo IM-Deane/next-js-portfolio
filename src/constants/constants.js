@@ -1,13 +1,13 @@
 // Data for project cards
 export const projectData = [
 	{
-		title: "MERN Memories",
+		title: "Historical Figures",
 		description:
-			"This app utilizes the MERN stack to create a small-scale social media application. Users can create an account or login using their Google accounts. Once logged in, the user can create posts and like posts created by others.",
-		image: "/images/1.png",
+			"This app utilizes the MERN stack to create a small-scale historical figures website. Users can create a new profile or login using their Google accounts. Once logged in, the user can create posts and like posts created by others.",
+		image: "/images/projects/historical-figures-thumbnail-630w.jpg",
 		tags: ["Mongo", "Express", "React", "Node"],
-		source: "https://github.com/IM-Deane/mern-memories",
-		visit: "https://google.com",
+		source: "https://github.com/IM-Deane/historical-figures",
+		visit: "https://im-deane-historical-figures.netlify.app/posts",
 		id: 0,
 		isFeatured: true,
 	},
