@@ -41,8 +41,8 @@ const Footer = () => {
 						<AiOutlineMail size="2rem" style={{ marginRight: "8px" }} />
 						Email
 					</LinkTitle>
-					<LinkItem href="mailto:contact@tristandeaneportfolio.com">
-						contact@tristandeaneportfolio.com
+					<LinkItem href="mailto:tristandeane93@gmail.com">
+						tristandeane93@gmail.com
 					</LinkItem>
 				</LinkColumn>
 			</LinkList>
