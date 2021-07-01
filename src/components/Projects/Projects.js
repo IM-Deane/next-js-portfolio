@@ -33,10 +33,11 @@ const Projects = () => {
 			<SectionDivider />
 			<SectionTitle main>Project Spotlight</SectionTitle>
 			<SectionText>
-				This section contains some of my favorite creations. Each of them has
+				This section contains some of my favorite projects. Each of them has
 				been chosen to highlight a particular area of my skillset. <br />
-				<br /> I am particularly proud of MERN Memories, which is a Full-stack
-				React application.
+				<br /> I am particularly proud of{" "}
+				<strong style={{ fontWeight: "bold" }}>Historical Figures</strong>,
+				which is a Full-stack React application.
 			</SectionText>
 			<SectionText>
 				You can discover more of my work by viewing my{" "}

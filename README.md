@@ -4,7 +4,7 @@ TODO: Add a link to the portfolio website
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.0.3
+### Current Version : 1.0.4
 
 ## Description:
 
@@ -46,6 +46,13 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 ## Version History:
+
+_Version 1.0.4:_
+
+_Major:_ Updated the site's nav logo and favicon. I think they represent my
+personality a little bit more (I like wolves ::smile:: ).
+
+_Minor:_ Fixed some small typos in the copy of the site.
 
 _Version 1.0.3:_
 

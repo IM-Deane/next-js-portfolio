@@ -87,9 +87,9 @@ const Timeline = () => {
 				visualize their administrative data.
 			</SectionText>
 			<SectionText>
-				Currently, I am in process of designing a scheduling app that enables
-				managers to assign employees to job sites (think Jobber) and manage
-				their tasks in real-time.
+				Currently, I am in the process of implementing a scheduling app that
+				enables managers to assign employees to job sites (think Jobber) and
+				manage their tasks in real-time.
 			</SectionText>
 		</div>
 	);
