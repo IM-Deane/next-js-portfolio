@@ -20,7 +20,7 @@ export const projectData = [
 		source: "https://google.com",
 		visit: "https://google.com",
 		id: 1,
-		isFeatured: true,
+		isFeatured: false,
 	},
 	{
 		title: "TCA Developments",
@@ -56,15 +56,15 @@ export const projectData = [
 		isFeatured: false,
 	},
 	{
-		title: "Unichat",
+		title: "Game Library Manager",
 		description:
-			"Unichat was created to learn more about React and solidify my ability to work with API's. It is a Real-Time web based chat application that utilizes Firebase & Chat Engine.",
-		image: "/images/projects/unichat-thumbnail.jpg",
-		tags: ["React", "ChatEngine", "Firebase"],
-		source: "https://github.com/IM-Deane/unichat-project",
+			"This project began as a simple backend Express.js application. My goal was simply to practice building a RESTful API. However, after completing the API I decided to create a more interesting app. The current version is a MERN application with a client side interface that allows users to manage a small game library.",
+		image: "/images/projects/game-manager-thumbnail.jpg",
+		tags: ["React", "Express", "Material-UI", "MongoDB"],
+		source: "https://github.com/IM-Deane/game-manager",
 		visit: "https://unichat-project-im-deane.netlify.app/",
 		id: 5,
-		isFeatured: false,
+		isFeatured: true,
 	},
 ];
 
