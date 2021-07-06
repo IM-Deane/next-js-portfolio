@@ -12,17 +12,6 @@ export const projectData = [
 		isFeatured: true,
 	},
 	{
-		title: "E-Commerce",
-		description:
-			"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-		image: "/images/2.png",
-		tags: ["React", "JavaScript"],
-		source: "https://google.com",
-		visit: "https://google.com",
-		id: 1,
-		isFeatured: false,
-	},
-	{
 		title: "TCA Developments",
 		description:
 			"TCA Developments is a general contracting company that specializes in commerical construction and rennovation. I was commissioned to redesign their company website.",
@@ -30,7 +19,7 @@ export const projectData = [
 		tags: ["React", "Bootstrap 5"],
 		source: "https://github.com/IM-Deane/tca-developments-website",
 		visit: "https://www.tcadevelopments.com/",
-		id: 2,
+		id: 1,
 		isFeatured: true,
 	},
 	{
@@ -41,7 +30,7 @@ export const projectData = [
 		tags: ["React", "ChatEngine", "Firebase"],
 		source: "https://github.com/IM-Deane/unichat-project",
 		visit: "https://unichat-project-im-deane.netlify.app/",
-		id: 3,
+		id: 2,
 		isFeatured: true,
 	},
 	{
@@ -52,18 +41,18 @@ export const projectData = [
 		tags: ["HTML5", "CSS3", "Express"],
 		source: "https://github.com/IM-Deane/humble-pie",
 		visit: "https://humble-pie.herokuapp.com/",
-		id: 4,
+		id: 3,
 		isFeatured: false,
 	},
 	{
 		title: "Game Library Manager",
 		description:
-			"This project began as a simple backend Express.js application. My goal was simply to practice building a RESTful API. However, after completing the API I decided to create a more interesting app. The current version is a MERN application with a client side interface that allows users to manage a small game library.",
+			"This project began as a simple backend Express.js application. My goal was to practice building a RESTful API. However, after completing the initial backend, I decided to take additional steps to enhance the app. This new version features a client side interface that allows users to manage a small game library.",
 		image: "/images/projects/game-manager-thumbnail.jpg",
-		tags: ["React", "Express", "Material-UI", "MongoDB"],
+		tags: ["React", "Express", "Material-UI", "Mongo"],
 		source: "https://github.com/IM-Deane/game-manager",
-		visit: "https://unichat-project-im-deane.netlify.app/",
-		id: 5,
+		visit: "https://mern-game-library-manager.netlify.app/",
+		id: 4,
 		isFeatured: true,
 	},
 ];
