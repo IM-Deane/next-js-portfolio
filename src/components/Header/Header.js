@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { GiWolfHead } from "react-icons/gi";
+import { GiLaurels } from "react-icons/gi";
 
 import {
 	Container,
@@ -25,7 +25,7 @@ const Header = () => (
 						marginBottom: "20px",
 					}}
 				>
-					<GiWolfHead size="3rem" style={{ margin: "0 10px" }} />{" "}
+					<GiLaurels size="3rem" style={{ margin: "0 10px" }} />{" "}
 					<Span>Tristan Deane</Span>
 				</a>
 			</Link>
