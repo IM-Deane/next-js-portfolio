@@ -4,7 +4,7 @@ TODO: Add a link to the portfolio website
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.0.6
+### Current Version : 1.0.7
 
 ## Description:
 
