@@ -69,6 +69,14 @@ export const ReadMoreLink = styled.a`
 	}
 `;
 
+export const Link = styled.a`
+	text-decoration: underline;
+	&:hover {
+		color: #ffffff;
+		transition: 0.5s;
+	}
+`;
+
 export const CarouselContainer = styled.ul`
 	max-width: 1040px;
 	background: #0f1624;

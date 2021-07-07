@@ -47,6 +47,11 @@ The site features all of the major sections you would expect from a portfolio.
 
 ## Version History:
 
+_Version 1.0.7:_
+
+Updated the About section's extended bio. Modified the styling of the several
+links to include better hover effects.
+
 _Version 1.0.6:_
 
 Changed the Nav logo and favicons to a laurel wreath.

@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
 import {
+	GalleryLink,
 	BlogCard,
 	CardInfo,
 	ExternalLinks,
@@ -42,7 +43,9 @@ const Projects = () => {
 			<SectionText>
 				You can discover more of my work by viewing my{" "}
 				<Link href="/projects">
-					<a style={{ textDecoration: "underline" }}>project gallery</a>
+					<a>
+						<GalleryLink>project gallery</GalleryLink>
+					</a>
 				</Link>
 				.
 			</SectionText>

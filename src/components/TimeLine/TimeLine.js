@@ -5,6 +5,7 @@ import {
 	ProfileCard,
 	ReadMoreContainer,
 	ReadMoreBg,
+	Link,
 	ReadMoreLink,
 	CarouselButton,
 	CarouselButtonDot,
@@ -74,23 +75,24 @@ const Timeline = () => {
 				Over the past few months, I have been working with a construction
 				company called TCA Developments. A majority of my time has been spent on
 				the design and creation of their{" "}
-				<a
-					style={{ textDecoration: "underline" }}
-					href="https://tcadevelopments.com"
-					target="_blank"
-				>
+				<Link href="https://tcadevelopments.com" target="_blank">
 					website.
-				</a>
+				</Link>
 			</SectionText>
 			<SectionText>
 				After a successful launch, I went on to create a dashboard web app to
 				visualize their administrative data.
 			</SectionText>
 			<SectionText>
+				Academically, I am going into my 2nd year of NAIT's Computer Software
+				Development program. However, I am also happy to announce that I have
+				been accepted into the Fall 2021 intake of their CO-OP program.
+			</SectionText>
+			{/* <SectionText>
 				Currently, I am in the process of implementing a scheduling app that
 				enables managers to assign employees to job sites (think Jobber) and
 				manage their tasks in real-time.
-			</SectionText>
+			</SectionText> */}
 		</div>
 	);
 
@@ -130,7 +132,7 @@ const Timeline = () => {
 				I started coding about two years ago after learning the basics from a
 				computer science course at the University of Athabasca. Although I enjoy
 				using languages such as Python and Java, my current focus has been on
-				JavaScript, React.js, and Next.js.
+				the JavaScript ecosystem including: React, Next, Node, and Express.
 			</SectionText>
 			{/* Extra content */}
 			<ReadMoreContainer>

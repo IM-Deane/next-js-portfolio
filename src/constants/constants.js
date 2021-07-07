@@ -71,5 +71,6 @@ export const accomplishments = [
 	{ number: 3, text: "Full-Stack Projects" },
 	{ number: 2, text: "Freelance projects" },
 	{ number: 3.5, text: "GPA" },
+	{ number: 2021, text: "Accepted into NAIT's CSD CO-OP Program" },
 	// { number: 100, text: "Increase in clients revenue due to website" },
 ];

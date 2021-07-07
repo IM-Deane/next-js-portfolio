@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+// Project gallery link
+export const GalleryLink = styled.a`
+	text-decoration: underline;
+	&:hover {
+		color: #ffffff;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+`;
+
 export const Img = styled.img`
 	width: 100%;
 	height: 100%;
