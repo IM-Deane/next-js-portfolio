@@ -23,6 +23,17 @@ export const projectData = [
 		isFeatured: true,
 	},
 	{
+		title: "Crwn Clothing",
+		description:
+			"This full-stack e-commerce application was built during a 40-hour React course I recently completed. Throughout the program we learned numerous fundemental and advanced React concepts.",
+		image: "/images/projects/tca-developments-thumbnail.jpg",
+		tags: ["React", "Styled-Components", "Redux-Saga", "Firebase"],
+		source: "https://github.com/IM-Deane/crwn-clothing",
+		visit: "https://crwn-clothing-im-deane.herokuapp.com/",
+		id: 1,
+		isFeatured: true,
+	},
+	{
 		title: "Unichat",
 		description:
 			"Unichat was created to learn more about React and solidify my ability to work with API's. It is a Real-Time web based chat application that utilizes Firebase & Chat Engine.",
@@ -31,7 +42,7 @@ export const projectData = [
 		source: "https://github.com/IM-Deane/unichat-project",
 		visit: "https://unichat-project-im-deane.netlify.app/",
 		id: 2,
-		isFeatured: true,
+		isFeatured: false,
 	},
 	{
 		title: "Humble Pie",
