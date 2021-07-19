@@ -70,7 +70,7 @@ const Timeline = () => {
 
 	// Extra content rendered when user clicks read more link
 	const readMoreContent = (
-		<div>
+		<>
 			<SectionText>
 				Over the past few months, I have been working with a construction
 				company called TCA Developments. A majority of my time has been spent on
@@ -93,7 +93,7 @@ const Timeline = () => {
 				enables managers to assign employees to job sites (think Jobber) and
 				manage their tasks in real-time.
 			</SectionText> */}
-		</div>
+		</>
 	);
 
 	// // Snap back to beginning of scroll when window is resized
