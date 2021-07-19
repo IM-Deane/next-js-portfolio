@@ -4,7 +4,7 @@ TODO: Add a link to the portfolio website
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.0.7
+### Current Version : 1.0.8
 
 ## Description:
 
@@ -46,6 +46,12 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 ## Version History:
+
+_Version 1.0.8:_
+
+Updated the Project spotlight to include CRWN clothing.
+
+Modified the About section
 
 _Version 1.0.7:_
 

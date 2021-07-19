@@ -16,7 +16,7 @@ export const projectData = [
 		description:
 			"TCA Developments is a general contracting company that specializes in commerical construction and rennovation. I was commissioned to redesign their company website.",
 		image: "/images/projects/tca-developments-thumbnail.jpg",
-		tags: ["React", "Bootstrap 5"],
+		tags: ["React", "Bootstrap 5", "SASS"],
 		source: "https://github.com/IM-Deane/tca-developments-website",
 		visit: "https://www.tcadevelopments.com/",
 		id: 1,
@@ -27,10 +27,10 @@ export const projectData = [
 		description:
 			"This full-stack e-commerce application was built during a 40-hour React course I recently completed. Throughout the program we learned numerous fundemental and advanced React concepts.",
 		image: "/images/projects/crwn-clothing-thumbnail-630w.jpg",
-		tags: ["React", "Styled-Components", "Redux-Saga", "Firebase"],
+		tags: ["React", "SASS", "Redux-Saga", "Firebase"],
 		source: "https://github.com/IM-Deane/crwn-clothing",
 		visit: "https://crwn-clothing-im-deane.herokuapp.com/",
-		id: 1,
+		id: 2,
 		isFeatured: true,
 	},
 	{
@@ -41,7 +41,7 @@ export const projectData = [
 		tags: ["React", "ChatEngine", "Firebase"],
 		source: "https://github.com/IM-Deane/unichat-project",
 		visit: "https://unichat-project-im-deane.netlify.app/",
-		id: 2,
+		id: 3,
 		isFeatured: false,
 	},
 	{
@@ -52,7 +52,7 @@ export const projectData = [
 		tags: ["HTML5", "CSS3", "Express"],
 		source: "https://github.com/IM-Deane/humble-pie",
 		visit: "https://humble-pie.herokuapp.com/",
-		id: 3,
+		id: 4,
 		isFeatured: false,
 	},
 	{
@@ -63,7 +63,7 @@ export const projectData = [
 		tags: ["React", "Express", "Material-UI", "Mongo"],
 		source: "https://github.com/IM-Deane/game-manager",
 		visit: "https://mern-game-library-manager.netlify.app/",
-		id: 4,
+		id: 5,
 		isFeatured: true,
 	},
 ];
@@ -73,8 +73,11 @@ export const TimeLineData = [
 	{ year: 2019, text: "Started my journey at University of Athabasca" },
 	{ year: 2020, text: "Picked up coding again during COVID-19" },
 	{ year: 2020, text: "Enrolled in NAIT's Software Development program" },
-	{ year: 2021, text: "Began working with TCA Developments" },
-	{ year: 2021, text: "Created an online Job board with a colleague" },
+	{
+		year: 2021,
+		text: "Began working with TCA Developments as a web developer",
+	},
+	// { year: 2021, text: "Created an online Job board with a colleague" },
 ];
 
 // Data for accomplishments section
