@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 
-import Image from "next/image";
 import {
 	ProfileCard,
 	ReadMoreContainer,
@@ -121,7 +120,10 @@ const Timeline = () => {
 				Hey there, my name is Tristan and I'm a web developer from Edmonton,
 				Alberta.
 				<span style={{ margin: "0 8px" }}>
-					<Image width={20} height={20} src={"/images/canadian-flag.svg"} />
+					<img
+						style={{ width: "20px", height: "20px" }}
+						src={"/images/canadian-flag.svg"}
+					/>
 				</span>{" "}
 				I'm 28 years old and have just begun my journey in this exciting
 				industry.
