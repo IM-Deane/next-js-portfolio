@@ -3,6 +3,7 @@ import styled from "styled-components";
 // Project gallery link
 export const GalleryLink = styled.a`
 	text-decoration: underline;
+	color: #ab88fb;
 
 	&:hover {
 		color: #ffffff;
