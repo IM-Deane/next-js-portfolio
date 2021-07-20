@@ -111,9 +111,8 @@ const Timeline = () => {
 			<SectionTitle>About me</SectionTitle>
 			{/* Lead */}
 			<ProfileCard>
-				<Image
-					width={400}
-					height={500}
+				<img
+					style={{ width: "400px", height: "500px" }}
 					src={"/images/portfolio-main-400w.jpg"}
 					alt="Profile photo of Tristan Deane"
 				/>
