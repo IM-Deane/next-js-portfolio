@@ -2,7 +2,7 @@
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.1.2
+### Current Version : 1.1.3
 
 ## Description:
 
@@ -44,6 +44,15 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 ## Version History:
+
+_Version 1.1.3:_
+
+Updated profile image width on mobile devices.
+
+Fixed link color in the profile section readmore container.
+
+Added a new **xs** mobile breakpoint. I've implemented this breakpoint to help
+make the header more responsive on smaller devices.
 
 _Version 1.1.2:_
 

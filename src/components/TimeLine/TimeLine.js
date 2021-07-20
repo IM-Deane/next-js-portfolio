@@ -79,8 +79,8 @@ const Timeline = () => {
 				</Link>
 			</SectionText>
 			<SectionText>
-				After a successful launch, I went on to create a dashboard web app to
-				visualize their administrative data.
+				After a successful launch, I went on to create a dashboard web app meant
+				to visualize their administrative data.
 			</SectionText>
 			<SectionText>
 				Academically, I am going into my 2nd year of NAIT's Computer Software

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { GiArchiveResearch } from "react-icons/gi";
+
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
 	max-width: 1040px;
@@ -57,6 +59,10 @@ export const SocialIconsContainer = styled.div`
 		width: 100%;
 		flex-direction: column;
 	}
+
+	@media ${(props) => props.theme.breakpoints.xs} {
+		flex-direction: row;
+	}
 `;
 
 export const CompanyContainer = styled.div`
@@ -85,6 +91,7 @@ export const Slogan = styled.p`
 	font-size: 18px;
 	line-height: 30px;
 	padding: 1rem;
+	display: flex;
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		font-size: 16px;
@@ -96,6 +103,18 @@ export const Slogan = styled.p`
 		font-size: 14px;
 		min-width: 100px;
 	}
+	@media ${(props) => props.theme.breakpoints.xs} {
+		font-size: 1.3rem;
+	}
+`;
+
+export const SloganIcon = styled(GiArchiveResearch)`
+	font-size: 3rem;
+	margin-right: 10px;
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		font-size: 2.5rem;
+	}
 `;
 
 export const SocialContainer = styled.div`
@@ -104,6 +123,12 @@ export const SocialContainer = styled.div`
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		justify-content: center;
+		padding-right: 16px;
+		flex-wrap: wrap;
+	}
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		justify-content: flex-start;
 		padding-right: 16px;
 		flex-wrap: wrap;
 	}

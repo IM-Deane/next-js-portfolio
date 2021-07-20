@@ -1,4 +1,6 @@
 import { IoIosArrowDropdown } from "react-icons/io";
+import { GiLaurels } from "react-icons/gi";
+
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -8,6 +10,7 @@ export const Container = styled.div`
 	grid-column-gap: 2rem;
 	padding: 1rem;
 	padding-top: 2rem;
+	align-items: center;
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		display: grid;
@@ -18,8 +21,61 @@ export const Container = styled.div`
 	}
 `;
 
-export const Span = styled.span`
+export const BrandContainer = styled.a`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: 300px;
+
+	@media ${(props) => props.theme.breakpoints.lg} {
+		width: 250px;
+	}
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		width: 170px;
+	}
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		width: 100%;
+	}
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		width: 90%;
+	}
+`;
+
+export const SiteLogo = styled(GiLaurels)`
+	margin: 0 10px;
+	font-size: 3rem;
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		font-size: 2.2rem;
+	}
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		font-size: 2.5rem;
+	}
+
+	@media ${(props) => props.theme.breakpoints.xs} {
+		font-size: 2.2rem;
+	}
+`;
+
+export const BrandText = styled.span`
 	font-size: 2rem;
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		font-size: 1.8rem;
+	}
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		font-size: 2rem;
+	}
+
+	@media ${(props) => props.theme.breakpoints.xs} {
+		font-size: 1.7rem;
+	}
 `;
 
 export const Div1 = styled.div`
@@ -27,16 +83,29 @@ export const Div1 = styled.div`
 	display: flex;
 	flex-direction: row;
 	align-content: center;
+
 	@media ${(props) => props.theme.breakpoints.sm} {
-		grid-area: 1 / 1 / 2 / 3;
+		grid-area: 1 / 1 / 2 / 4;
 	}
 `;
-export const Div2 = styled.ul`
+export const Div2 = styled.div`
 	grid-area: 1 / 2 / 2 / 4;
 	display: flex;
 	justify-content: space-around;
+	width: 400px;
+
+	@media ${(props) => props.theme.breakpoints.lg} {
+		width: 300px;
+	}
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		width: 300px;
+	}
+
 	@media ${(props) => props.theme.breakpoints.sm} {
 		grid-area: 2 / 2 / 3 / 5;
+		width: 100%;
+		margin-top: auto;
 	}
 `;
 export const Div3 = styled.div`
@@ -45,6 +114,10 @@ export const Div3 = styled.div`
 	justify-content: space-around;
 	align-items: center;
 	@media ${(props) => props.theme.breakpoints.sm} {
+		align-items: center;
+		grid-area: 1 / 4 / 2 / 6;
+	}
+	@media ${(props) => props.theme.breakpoints.xs} {
 		align-items: center;
 		grid-area: 1 / 4 / 2 / 6;
 	}
@@ -113,7 +186,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 // Social Icons
-
 export const SocialIcons = styled.a`
 	transition: 0.3s ease;
 	color: white;

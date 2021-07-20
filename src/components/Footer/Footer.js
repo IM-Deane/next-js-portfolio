@@ -7,7 +7,7 @@ import {
 	AiFillLinkedin,
 	AiOutlineMail,
 } from "react-icons/ai";
-import { GiArchiveResearch } from "react-icons/gi";
+
 import { CgPhone } from "react-icons/cg";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -21,6 +21,7 @@ import {
 	LinkList,
 	LinkTitle,
 	Slogan,
+	SloganIcon,
 	SocialContainer,
 	SocialIconsContainer,
 } from "./FooterStyles";
@@ -56,8 +57,8 @@ const Footer = () => {
 			</LinkList>
 			<SocialContainer>
 				<CompanyContainer>
-					<Slogan style={{ display: "flex" }}>
-						<GiArchiveResearch size="3rem" style={{ marginRight: "10px" }} />
+					<Slogan>
+						<SloganIcon />
 						Currently learning: MERN STACK
 					</Slogan>
 				</CompanyContainer>

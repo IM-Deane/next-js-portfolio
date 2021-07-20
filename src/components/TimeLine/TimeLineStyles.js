@@ -14,9 +14,15 @@ export const ProfileImg = styled.img`
 	width: 400px;
 	height: 533px;
 
+	@media screen and (max-width: 700px) {
+		width: 100%;
+		height: 500px;
+	}
+
+	// Small devices
 	@media screen and (max-width: 500px) {
-		width: 225px;
-		height: 300px;
+		width: 100%;
+		height: auto;
 	}
 `;
 
@@ -81,9 +87,12 @@ export const ReadMoreLink = styled.a`
 
 export const Link = styled.a`
 	text-decoration: underline;
+	color: #ab88fb;
+
 	&:hover {
 		color: #ffffff;
 		transition: 0.5s;
+		cursor: pointer;
 	}
 `;
 
