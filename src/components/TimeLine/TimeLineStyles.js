@@ -10,6 +10,16 @@ export const ProfileCard = styled.div`
 	}
 `;
 
+export const ProfileImg = styled.img`
+	width: 400px;
+	height: 533px;
+
+	@media screen and (max-width: 500px) {
+		width: 225px;
+		height: 300px;
+	}
+`;
+
 export const ReadMoreContainer = styled.article`
 	margin-bottom: 40px;
 `;
@@ -115,7 +125,7 @@ export const CarouselMobileScrollNode = styled.div`
 	}
 `;
 
-export const CarouselItem = styled.div`
+export const CarouselItem = styled.li`
 	background: #0f1624;
 	border-radius: 3px;
 	max-width: 196px;

@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 
 import {
 	ProfileCard,
+	ProfileImg,
 	ReadMoreContainer,
-	ReadMoreBg,
 	Link,
 	ReadMoreLink,
 	CarouselButton,
@@ -110,8 +110,7 @@ const Timeline = () => {
 			<SectionTitle>About me</SectionTitle>
 			{/* Lead */}
 			<ProfileCard>
-				<img
-					style={{ width: "400px", height: "533px" }}
+				<ProfileImg
 					src={"/images/portfolio-main-400w.jpg"}
 					alt="Profile photo of Tristan Deane"
 				/>
@@ -123,6 +122,7 @@ const Timeline = () => {
 					<img
 						style={{ width: "20px", height: "20px" }}
 						src={"/images/canadian-flag.svg"}
+						alt="Canadian flag"
 					/>
 				</span>{" "}
 				I'm 28 years old and have just begun my journey in this exciting

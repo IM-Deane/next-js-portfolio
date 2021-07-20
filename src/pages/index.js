@@ -31,9 +31,17 @@ const Home = () => {
 					sizes="16x16"
 					href="/favicon_wreath/favicon-16x16.png"
 				/>
-				<link rel="manifest" href="/site.webmanifest" />
-				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2b5797" />
+				<link rel="manifest" href="/favicon_wreath/site.webmanifest" />
+				<link
+					rel="mask-icon"
+					href="/favicon_wreath/safari-pinned-tab.svg"
+					color="#2b5797"
+				/>
 				<meta name="msapplication-TileColor" content="#2b5797" />
+				<meta
+					name="description"
+					content="My name is Tristan Deane and i'm a software developer from Canada. This portfolio site was created to exhibt my various projects."
+				/>
 				<meta name="theme-color" content="#ffffff" />
 				<title>Portfolio | Tristan Deane</title>
 			</Head>
