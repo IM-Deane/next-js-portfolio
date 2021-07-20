@@ -60,7 +60,7 @@ export const projectData = [
 		description:
 			"This project began as a simple backend Express.js application. My goal was to practice building a RESTful API. However, after completing the initial backend, I decided to take additional steps to enhance the app. This new version features a client side interface that allows users to manage a small game library.",
 		image: "/images/projects/game-manager-thumbnail.jpg",
-		tags: ["React", "Express", "Material-UI", "MongoDB"],
+		tags: ["React", "Express", "Material-UI", "Mongo"],
 		source: "https://github.com/IM-Deane/game-manager",
 		visit: "https://mern-game-library-manager.netlify.app/",
 		id: 5,
