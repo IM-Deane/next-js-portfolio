@@ -34,14 +34,22 @@ const Footer = () => {
 						<CgPhone size="2rem" style={{ marginRight: "8px" }} />
 						Call
 					</LinkTitle>
-					<LinkItem href="tel:780-965-2229">780-965-2229</LinkItem>
+					<LinkItem
+						href="tel:780-965-2229"
+						aria-label="Phone number for Tristan Deane"
+					>
+						780-965-2229
+					</LinkItem>
 				</LinkColumn>
 				<LinkColumn>
 					<LinkTitle style={{ display: "flex", alignItems: "center" }}>
 						<AiOutlineMail size="2rem" style={{ marginRight: "8px" }} />
 						Email
 					</LinkTitle>
-					<LinkItem href="mailto:tristandeane93@gmail.com">
+					<LinkItem
+						href="mailto:tristandeane93@gmail.com"
+						aria-label="Email address for Tristan Deane"
+					>
 						tristandeane93@gmail.com
 					</LinkItem>
 				</LinkColumn>
@@ -54,13 +62,22 @@ const Footer = () => {
 					</Slogan>
 				</CompanyContainer>
 				<SocialIconsContainer>
-					<SocialIcons href="https://github.com/IM-Deane">
+					<SocialIcons
+						href="https://github.com/IM-Deane"
+						aria-label="GitHub account for Tristan Deane"
+					>
 						<AiFillGithub size="3rem" />
 					</SocialIcons>
-					<SocialIcons href="https://www.linkedin.com/in/tristan-deane-278781102/">
+					<SocialIcons
+						href="https://www.linkedin.com/in/tristan-deane-278781102/"
+						aria-label="Linkedin profile of Tristan Deane"
+					>
 						<AiFillLinkedin size="3rem" />
 					</SocialIcons>
-					<SocialIcons href="https://www.instagram.com/trizzeydeane6/">
+					<SocialIcons
+						href="https://www.instagram.com/trizzeydeane6/"
+						aria-label="Instagram profile for Tristan Deane"
+					>
 						<AiFillInstagram size="3rem" />
 					</SocialIcons>
 				</SocialIconsContainer>

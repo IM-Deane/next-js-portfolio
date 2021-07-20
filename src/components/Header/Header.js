@@ -16,8 +16,9 @@ import {
 const Header = () => (
 	<Container>
 		<Div1>
-			<Link href="/">
+			<Link href="/" passHref>
 				<a
+					aria-label="Logo link for portfolio page "
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -32,29 +33,38 @@ const Header = () => (
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects">
+				<Link href="#projects" passHref aria-label="Jump to projects section">
 					<NavLink>Projects</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#tech">
+				<Link href="#tech" passHref aria-label="Jump to technologies section">
 					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#about">
+				<Link href="#about" passHref aria-label="Jump to profile section">
 					<NavLink>About</NavLink>
 				</Link>
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons href="https://github.com/IM-Deane">
+			<SocialIcons
+				href="https://github.com/IM-Deane"
+				aria-label="GitHub account for Tristan Deane"
+			>
 				<AiFillGithub size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://www.linkedin.com/in/tristan-deane-278781102/">
+			<SocialIcons
+				href="https://www.linkedin.com/in/tristan-deane-278781102/"
+				aria-label="Linkedin profile of Tristan Deane"
+			>
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://www.instagram.com/trizzeydeane6/">
+			<SocialIcons
+				href="https://www.instagram.com/trizzeydeane6/"
+				aria-label="Instagram profile for Tristan Deane"
+			>
 				<AiFillInstagram size="3rem" />
 			</SocialIcons>
 		</Div3>

@@ -111,7 +111,7 @@ const Timeline = () => {
 			{/* Lead */}
 			<ProfileCard>
 				<img
-					style={{ width: "400px", height: "500px" }}
+					style={{ width: "400px", height: "533px" }}
 					src={"/images/portfolio-main-400w.jpg"}
 					alt="Profile photo of Tristan Deane"
 				/>
@@ -209,6 +209,7 @@ const Timeline = () => {
 						active={activeItem}
 						onClick={(e) => handleClick(e, index)}
 						type="button"
+						aria-label={item.text}
 					>
 						<CarouselButtonDot active={activeItem} />
 					</CarouselButton>

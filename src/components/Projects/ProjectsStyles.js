@@ -3,6 +3,7 @@ import styled from "styled-components";
 // Project gallery link
 export const GalleryLink = styled.a`
 	text-decoration: underline;
+
 	&:hover {
 		color: #ffffff;
 		transition: 0.5s;
@@ -85,7 +86,7 @@ export const CardInfo = styled.p`
 	}
 `;
 
-export const UtilityList = styled.ul`
+export const UtilityList = styled.div`
 	list-style-type: none;
 	padding: 0;
 	display: flex;

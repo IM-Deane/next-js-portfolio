@@ -2,7 +2,7 @@
 
 ![Portfolio Website](https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-main-image.jpg)
 
-### Current Version : 1.0.8
+### Current Version : 1.1.1
 
 ## Description:
 
@@ -44,6 +44,13 @@ The site features all of the major sections you would expect from a portfolio.
   highlights an interesting fact about the technology i'm currently learning.
 
 ## Version History:
+
+_Version 1.1.1:_
+
+Began fixing several issues pertaining to the site's accessiblity and SEO
+scores.
+
+_Version 1.1.0:_ Deployed the live version of the site.
 
 _Version 1.0.8:_
 
