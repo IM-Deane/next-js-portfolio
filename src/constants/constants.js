@@ -1,6 +1,28 @@
 // Data for project cards
 export const projectData = [
 	{
+		title: "Crwn Clothing",
+		description:
+			"This full-stack e-commerce application was built during a 40-hour React course I recently completed. Throughout the program we learned numerous fundemental and advanced React concepts.",
+		image: "/images/projects/crwn-clothing-thumbnail-630w.jpg",
+		tags: ["React", "SASS", "Redux", "Firebase"],
+		source: "https://github.com/IM-Deane/crwn-clothing",
+		visit: "https://crwn-clothing-im-deane.herokuapp.com/",
+		id: 0,
+		isFeatured: true,
+	},
+	{
+		title: "NASA Mission Control",
+		description:
+			"This project allows users to manage interstellar launches to habitable planets. Project was created to practice building backend API's with Node.",
+		image: "/images/projects/nasa-mission-control-630w.jpg",
+		tags: ["React", "Node", "AWS EC2", "Mongo"],
+		source: "https://github.com/IM-Deane/nasa-project",
+		visit: "http://34.222.179.139:8000/",
+		id: 1,
+		isFeatured: true,
+	},
+	{
 		title: "Historical Figures",
 		description:
 			"This app utilizes the MERN stack to create a small-scale historical figures website. Users can create a new profile or login using their Google accounts. Once logged in, the user can create posts and like posts created by others.",
@@ -8,9 +30,10 @@ export const projectData = [
 		tags: ["Mongo", "Express", "React", "Node"],
 		source: "https://github.com/IM-Deane/historical-figures",
 		visit: "https://im-deane-historical-figures.netlify.app/posts",
-		id: 0,
+		id: 2,
 		isFeatured: true,
 	},
+
 	{
 		title: "TCA Developments",
 		description:
@@ -19,20 +42,10 @@ export const projectData = [
 		tags: ["React", "Bootstrap 5", "SASS"],
 		source: "https://github.com/IM-Deane/tca-developments-website",
 		visit: "https://www.tcadevelopments.com/",
-		id: 1,
+		id: 3,
 		isFeatured: true,
 	},
-	{
-		title: "Crwn Clothing",
-		description:
-			"This full-stack e-commerce application was built during a 40-hour React course I recently completed. Throughout the program we learned numerous fundemental and advanced React concepts.",
-		image: "/images/projects/crwn-clothing-thumbnail-630w.jpg",
-		tags: ["React", "SASS", "Redux-Saga", "Firebase"],
-		source: "https://github.com/IM-Deane/crwn-clothing",
-		visit: "https://crwn-clothing-im-deane.herokuapp.com/",
-		id: 2,
-		isFeatured: true,
-	},
+
 	{
 		title: "Unichat",
 		description:
@@ -41,7 +54,7 @@ export const projectData = [
 		tags: ["React", "ChatEngine", "Firebase"],
 		source: "https://github.com/IM-Deane/unichat-project",
 		visit: "https://unichat-project-im-deane.netlify.app/",
-		id: 3,
+		id: 4,
 		isFeatured: false,
 	},
 	{
@@ -52,7 +65,7 @@ export const projectData = [
 		tags: ["HTML5", "CSS3", "Express"],
 		source: "https://github.com/IM-Deane/humble-pie",
 		visit: "https://humble-pie.herokuapp.com/",
-		id: 4,
+		id: 5,
 		isFeatured: false,
 	},
 	{
@@ -63,8 +76,8 @@ export const projectData = [
 		tags: ["React", "Express", "Material-UI", "Mongo"],
 		source: "https://github.com/IM-Deane/game-manager",
 		visit: "https://mern-game-library-manager.netlify.app/",
-		id: 5,
-		isFeatured: true,
+		id: 6,
+		isFeatured: false,
 	},
 ];
 
@@ -75,7 +88,7 @@ export const TimeLineData = [
 	{ year: 2020, text: "Enrolled in NAIT's Software Development program" },
 	{
 		year: 2021,
-		text: "Began working with TCA Developments as a web developer",
+		text: "Began working with TCA Developments as a Full-Stack Web Developer",
 	},
 	// { year: 2021, text: "Created an online Job board with a colleague" },
 ];

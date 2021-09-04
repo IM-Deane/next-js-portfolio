@@ -46,7 +46,7 @@ const Header = () => {
 					<AiFillGithub size="3rem" />
 				</SocialIcons>
 				<SocialIcons
-					href="https://www.linkedin.com/in/tristan-deane-278781102/"
+					href="https://www.linkedin.com/in/tristan-deane-software-developer/"
 					aria-label="Linkedin profile of Tristan Deane"
 				>
 					<AiFillLinkedin size="3rem" />
