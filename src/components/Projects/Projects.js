@@ -36,8 +36,8 @@ const Projects = () => {
 				This section contains some of my favorite projects. Each of them has
 				been chosen to highlight a particular area of my skillset. <br />
 				<br /> I am particularly proud of{" "}
-				<strong style={{ fontWeight: "bold" }}>Historical Figures</strong>,
-				which is a Full-stack React application.
+				<strong style={{ fontWeight: "bold" }}>CRWN Clothing</strong>, which is
+				a Full-stack React application.
 			</SectionText>
 			<SectionText>
 				You can discover more of my work by viewing my{" "}

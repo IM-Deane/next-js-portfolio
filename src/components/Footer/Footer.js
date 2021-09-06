@@ -59,7 +59,7 @@ const Footer = () => {
 				<CompanyContainer>
 					<Slogan>
 						<SloganIcon />
-						Currently learning: MERN STACK
+						Currently learning: TypeScript & GraphQL
 					</Slogan>
 				</CompanyContainer>
 				<SocialIconsContainer>
