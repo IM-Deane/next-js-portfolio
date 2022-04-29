@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -64,7 +65,7 @@ export const SectionText = styled.p`
 	line-height: 40px;
 	font-weight: 300;
 	padding-bottom: 3.6rem;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.85);
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		max-width: 670px;
@@ -172,15 +173,15 @@ export const SecondaryBtn = styled.button`
 `;
 
 export const ButtonBack = styled.div`
-	width: ${({ alt }) => (alt ? "150px" : "262px")};
-	height: ${({ alt }) => (alt ? "52px" : "64px")};
+	width: 262px;
+	height: 64px;
 	border-radius: 50px;
 	font-size: ${({ alt }) => (alt ? "20px" : "24px")};
 	font-weight: 600;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 80px")};
+	margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 50px")};
 	color: #fff;
 	background: ${({ alt }) =>
 		alt
@@ -293,4 +294,13 @@ export const LinkIconImg = styled.div`
 	@media ${(props) => props.theme.breakpoints.sm} {
 		height: ${({ large }) => (large ? "32px" : "16px")};
 	}
+`;
+
+export const Avatar = styled(Image).attrs((props) => ({
+	width: props.width || "50px",
+	height: props.height || "50px",
+}))`
+	vertial-align: middle;
+	overflow: hidden;
+	border-radius: 50%;
 `;

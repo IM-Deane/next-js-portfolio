@@ -49,10 +49,11 @@ const Home = () => {
 				<Hero />
 				<BgAnimation />
 			</Section>
-			<Projects />
-			<Technologies />
 			<Timeline />
-			<Accomplishments />
+			<Technologies />
+			<Projects />
+			{/* TODO: hide this section until there's more to say */}
+			{/* <Accomplishments /> */}
 		</Layout>
 	);
 };

@@ -2,9 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 
 import {
 	ProfileCard,
-	ProfileImg,
+	Img,
 	ReadMoreContainer,
-	Link,
 	ReadMoreLink,
 	CarouselButton,
 	CarouselButtonDot,
@@ -20,8 +19,12 @@ import {
 	Section,
 	SectionText,
 	SectionTitle,
+	SectionSubText,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
+
+import ProfileImg from "../../../public/images/portfolio-main-400w.jpg";
+import MaceImg from "../../../public/images/mace.jpg";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -69,30 +72,15 @@ const Timeline = () => {
 
 	// Extra content rendered when user clicks read more link
 	const readMoreContent = (
-		<>
-			<SectionText>
-				Over the past few months, I have been working with a construction
-				company called TCA Developments. A majority of my time has been spent on
-				the design and creation of their{" "}
-				<Link href="https://tcadevelopments.com" target="_blank">
-					website.
-				</Link>
-			</SectionText>
-			<SectionText>
-				After a successful launch, I went on to create a dashboard web app meant
-				to visualize their administrative data.
-			</SectionText>
-			<SectionText>
-				Academically, I am going into my 2nd year of NAIT's Computer Software
-				Development program. However, I am also happy to announce that I have
-				been accepted into the Fall 2021 intake of their CO-OP program.
-			</SectionText>
-			{/* <SectionText>
-				Currently, I am in the process of implementing a scheduling app that
-				enables managers to assign employees to job sites (think Jobber) and
-				manage their tasks in real-time.
-			</SectionText> */}
-		</>
+		<div style={{ marginTop: "25px" }}>
+			<Img
+				src={MaceImg}
+				alt="My good kitty Mace"
+				width="400px"
+				height="400px"
+			/>
+			<SectionSubText>A real good kitteh! 😸</SectionSubText>
+		</div>
 	);
 
 	// // Snap back to beginning of scroll when window is resized
@@ -110,35 +98,29 @@ const Timeline = () => {
 			<SectionTitle>About me</SectionTitle>
 			{/* Lead */}
 			<ProfileCard>
-				<ProfileImg
-					src={"/images/portfolio-main-400w.jpg"}
+				<Img
+					src={ProfileImg}
 					alt="Profile photo of Tristan Deane"
+					width="400px"
+					height="533px"
 				/>
 			</ProfileCard>
 			<SectionText style={{ marginTop: "20px" }}>
-				Hey there, my name is Tristan and I'm a web developer from Edmonton,
-				Alberta.
-				<span style={{ margin: "0 8px" }}>
-					<img
-						style={{ width: "20px", height: "20px" }}
-						src={"/images/canadian-flag.svg"}
-						alt="Canadian flag"
-					/>
-				</span>{" "}
-				I'm 28 years old and have just begun my journey in this exciting
-				industry.
+				I'm a growth-orientend engineer with several years of full-stack
+				development experience.
 			</SectionText>
-			{/* Skill overview */}
 			<SectionText>
-				I started coding about two years ago after learning the basics from a
-				computer science course at the University of Athabasca. Although I enjoy
-				using languages such as Python and Java, my current focus has been on
-				the JavaScript ecosystem including: React, Next, Node, and Express.
+				I love to learn and spend the majority of my time building personal
+				projects and writing about tech.
+			</SectionText>
+			<SectionText>
+				When I do decide to blow off steam, my methods of choice include
+				reading, lifting heavy things, and playing with my chubby cat Mace.
 			</SectionText>
 			{/* Extra content */}
 			<ReadMoreContainer>
 				<ReadMoreLink onClick={toggleReadMore}>
-					{readMore ? "- Read less" : ` + Read more`}
+					{readMore ? "- Uggh hideous!" : ` + View a good kitty...`}
 				</ReadMoreLink>
 
 				<div>{readMore && readMoreContent}</div>

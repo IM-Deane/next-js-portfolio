@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const ProfileCard = styled.div`
 	border-radius: 10px;
@@ -10,10 +11,7 @@ export const ProfileCard = styled.div`
 	}
 `;
 
-export const ProfileImg = styled.img`
-	width: 400px;
-	height: 533px;
-
+export const Img = styled(Image)`
 	@media screen and (max-width: 700px) {
 		width: 100%;
 		height: 500px;

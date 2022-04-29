@@ -21,7 +21,7 @@ const Header = () => {
 			<Div1>
 				<Link href="/" passHref>
 					<BrandContainer aria-label="Logo link for portfolio page">
-						<SiteLogo /> <BrandText>Tristan Deane</BrandText>
+						<SiteLogo /> <BrandText>tristandeane.ca</BrandText>
 					</BrandContainer>
 				</Link>
 			</Div1>
@@ -31,11 +31,14 @@ const Header = () => {
 				</Link>
 
 				<Link href="#tech" passHref aria-label="Jump to technologies section">
-					<NavLink>Technologies</NavLink>
+					<NavLink>Tech</NavLink>
 				</Link>
 
 				<Link href="#about" passHref aria-label="Jump to profile section">
 					<NavLink>About</NavLink>
+				</Link>
+				<Link href="#" passHref aria-label="Jump to Tristan's blog">
+					<NavLink>Blog</NavLink>
 				</Link>
 			</Div2>
 			<Div3>

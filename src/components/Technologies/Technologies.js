@@ -1,5 +1,6 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { FaEthereum } from "react-icons/fa";
 import {
 	Section,
 	SectionDivider,
@@ -20,39 +21,42 @@ const Technologies = () => (
 		<br />
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I have experience using an array of web development technologies. From
-			Backend to Design, my diverse capabilities have put me squarely on the
-			path of a Full-Stack Developer.
+			I’ve explored a lot of different technologies throughout my studies. Some
+			of my strongest are listed below.
 		</SectionText>
 		<List>
 			<ListItem>
 				<DiReact size="3rem" />
 				<ListContainer>
-					<ListTitle>Front-End</ListTitle>
-					<ListParagraph>
-						Experience with <br />
-						React.js | Bootstrap | Next.js
-					</ListParagraph>
+					<ListTitle>General</ListTitle>
+					<ListParagraph>JavaScript | React | Next.js | Node.js</ListParagraph>
+					<ListParagraph>TypeScript | Python | Django | Golang</ListParagraph>
+					<ListParagraph>Rust</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<DiFirebase size="3rem" />
 				<ListContainer>
-					<ListTitle>Back-End</ListTitle>
-					<ListParagraph>
-						Experience with <br />
-						Node.js | Databases
-					</ListParagraph>
+					<ListTitle>Backend/Dev-Ops</ListTitle>
+					<ListParagraph>Docker | AWS | GitHub Actions</ListParagraph>
+					<ListParagraph>CircleCI | Heroku | MongoDB</ListParagraph>
+					<ListParagraph>PostgreSQL</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<DiZend size="3rem" />
 				<ListContainer>
 					<ListTitle>UI/UX</ListTitle>
-					<ListParagraph>
-						Experience with <br />
-						Figma | Photoshop & Adobe Cloud
-					</ListParagraph>
+					<ListParagraph>Tailwindcss | Material-UI | Bootstrap</ListParagraph>
+					<ListParagraph>Styled-Components | SASS | CSS</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<FaEthereum size="2rem" />
+				<ListContainer>
+					<ListTitle>Blockchain</ListTitle>
+					<ListParagraph>Solidity | Web3.js | Truffle Wallet</ListParagraph>
+					<ListParagraph>Hardhat | Infura.io | Remix.io</ListParagraph>
 				</ListContainer>
 			</ListItem>
 		</List>

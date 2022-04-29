@@ -83,12 +83,25 @@ export const projectData = [
 
 // Data for About section timeline
 export const TimeLineData = [
-	{ year: 2019, text: "Started my journey at University of Athabasca" },
-	{ year: 2020, text: "Picked up coding again during COVID-19" },
-	{ year: 2020, text: "Enrolled in NAIT's Software Development program" },
+	{
+		year: 2017,
+		text: "Enrolled in the University of Athabasca's Computer Science program",
+	},
+	{
+		year: 2020,
+		text: "Began working for TCA Developments as a Full-stack Developer",
+	},
+	{
+		year: 2020,
+		text: "Near the end of the year, I began freelancing as a way to cultivate my skills and explore various niches.",
+	},
 	{
 		year: 2021,
-		text: "Began working with TCA Developments as a Full-Stack Web Developer",
+		text: "Began working at Nimble as a full-time Software Engineer.",
+	},
+	{
+		year: 2022,
+		text: "Currently devouring all materials involving blockchain technology and DeFi.",
 	},
 	// { year: 2021, text: "Created an online Job board with a colleague" },
 ];

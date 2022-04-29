@@ -30,25 +30,11 @@ const Projects = () => {
 
 	return (
 		<Section nopadding id="projects">
-			<SectionDivider />
+			<SectionDivider divider />
 			<SectionTitle main>Project Spotlight</SectionTitle>
 			<SectionText>
-				This section contains some of my favorite projects. Each of them has
-				been chosen to highlight a particular area of my skillset. <br />
-				<br /> I am particularly proud of{" "}
-				<strong style={{ fontWeight: "bold" }}>CRWN Clothing</strong>, which is
-				a Full-stack React application.
-			</SectionText>
-			<SectionText>
-				You can discover more of my work by viewing my{" "}
-				<Link
-					passHref
-					href="/projects"
-					aria-label="Navigate to project gallery page"
-				>
-					<GalleryLink>project gallery</GalleryLink>
-				</Link>
-				.
+				Like I said earlier, I’m always building something 👨🏾‍🔧. Take a look at
+				some of my favourite projects below.
 			</SectionText>
 			<GridContainer>
 				{featuredProjects.map(
@@ -85,6 +71,19 @@ const Projects = () => {
 						</BlogCard>
 					)
 				)}
+				<div style={{ gridColumn: "1 / span 2", marginTop: "40px" }}>
+					<SectionText>
+						You can discover more of my work by viewing my{" "}
+						<Link
+							passHref
+							href="/projects"
+							aria-label="Navigate to project gallery page"
+						>
+							<GalleryLink>project gallery</GalleryLink>
+						</Link>
+						.
+					</SectionText>
+				</div>
 			</GridContainer>
 		</Section>
 	);
