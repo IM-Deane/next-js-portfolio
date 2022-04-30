@@ -4,6 +4,7 @@ import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
+import Contact from "../components/Contact/Contact";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 // For meta data
@@ -52,6 +53,7 @@ const Home = () => {
 			<Timeline />
 			<Technologies />
 			<Projects />
+			<Contact />
 			{/* TODO: hide this section until there's more to say */}
 			{/* <Accomplishments /> */}
 		</Layout>

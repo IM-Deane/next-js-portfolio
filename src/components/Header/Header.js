@@ -37,7 +37,11 @@ const Header = () => {
 				<Link href="#about" passHref aria-label="Jump to profile section">
 					<NavLink>About</NavLink>
 				</Link>
-				<Link href="#" passHref aria-label="Jump to Tristan's blog">
+
+				<Link href="#contact" passHref aria-label="Jump to contact section">
+					<NavLink>Contact</NavLink>
+				</Link>
+				<Link href="#" passHref aria-label="Navigate to Tristan's blog">
 					<NavLink>Blog</NavLink>
 				</Link>
 			</Div2>

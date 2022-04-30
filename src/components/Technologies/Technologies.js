@@ -37,7 +37,7 @@ const Technologies = () => (
 			<ListItem>
 				<DiFirebase size="3rem" />
 				<ListContainer>
-					<ListTitle>Backend/Dev-Ops</ListTitle>
+					<ListTitle>Backend / Dev-Ops</ListTitle>
 					<ListParagraph>Docker | AWS | GitHub Actions</ListParagraph>
 					<ListParagraph>CircleCI | Heroku | MongoDB</ListParagraph>
 					<ListParagraph>PostgreSQL</ListParagraph>

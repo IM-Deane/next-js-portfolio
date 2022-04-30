@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { SecondaryBtnBack } from "../../styles/GlobalComponents";
+
+import Button from "../../styles/GlobalComponents/Button";
 
 export const LeftSection = styled.div`
 	width: 100%;
@@ -15,5 +18,31 @@ export const LeftSection = styled.div`
 		flex-direction: column;
 
 		margin: 0 auto;
+	}
+`;
+
+export const HeroButtonContainer = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		flex-direction: column;
+		justif-content: center;
+		align-items: center;
+	}
+`;
+
+export const HeroButton = styled(Button)`
+	margin-bottom: 10px;
+`;
+
+export const HeroButtonAlt = styled(SecondaryBtnBack)`
+	margin-left: 10px;
+
+	@media ${(props) => props.theme.breakpoints.sm} {
+		margin-left: 0;
 	}
 `;

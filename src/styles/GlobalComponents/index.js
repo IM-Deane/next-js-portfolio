@@ -181,7 +181,7 @@ export const ButtonBack = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 50px")};
+	margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 30px")};
 	color: #fff;
 	background: ${({ alt }) =>
 		alt
@@ -206,6 +206,10 @@ export const ButtonBack = styled.div`
 		font-size: 14px;
 		margin-bottom: ${({ alt }) => (alt ? "0" : "32px")};
 	}
+`;
+
+export const SecondaryBtnBack = styled(ButtonBack)`
+	background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
 `;
 
 export const ButtonFront = styled.button`

@@ -8,8 +8,6 @@ import {
 	AiOutlineMail,
 } from "react-icons/ai";
 
-import { CgPhone } from "react-icons/cg";
-
 import { SocialIcons } from "../Header/HeaderStyles";
 
 // Styles
@@ -30,19 +28,7 @@ const Footer = () => {
 	return (
 		<FooterWrapper>
 			<LinkList>
-				<LinkColumn>
-					<LinkTitle style={{ display: "flex", alignItems: "center" }}>
-						<CgPhone size="2rem" style={{ marginRight: "8px" }} />
-						Call
-					</LinkTitle>
-					<LinkItem
-						href="tel:780-965-2229"
-						aria-label="Phone number for Tristan Deane"
-					>
-						780-965-2229
-					</LinkItem>
-				</LinkColumn>
-				<LinkColumn>
+				{/* <LinkColumn>
 					<LinkTitle style={{ display: "flex", alignItems: "center" }}>
 						<AiOutlineMail size="2rem" style={{ marginRight: "8px" }} />
 						Email
@@ -53,13 +39,13 @@ const Footer = () => {
 					>
 						tristandeane93@gmail.com
 					</LinkItem>
-				</LinkColumn>
+				</LinkColumn> */}
 			</LinkList>
 			<SocialContainer>
 				<CompanyContainer>
 					<Slogan>
 						<SloganIcon />
-						Currently learning: TypeScript & GraphQL
+						tristandeane.ca
 					</Slogan>
 				</CompanyContainer>
 				<SocialIconsContainer>

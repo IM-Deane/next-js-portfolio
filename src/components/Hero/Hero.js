@@ -1,62 +1,43 @@
 import {
 	Section,
-	SectionText,
 	SectionTitle,
+	SectionText,
 	SectionSubText,
-	Avatar,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
-
-import TristanAvatar from "../../../public/images/tristan-avatar.jpg";
+import {
+	LeftSection,
+	HeroButtonContainer,
+	HeroButton,
+	HeroButtonAlt,
+} from "./HeroStyles";
 
 const Hero = () => (
 	<Section row nopadding>
 		<LeftSection>
-			{/* <header style={{ display: "flex", alignItems: "center" }}>
-				<div style={{ flex: "1 1 25%", marginTop: "10px" }}>
-					<Avatar src={TristanAvatar} width="100%" height="100%" />
-				</div>
-				<SectionTitle
-					main
-					center
-					style={{ flex: "1 0 75%", fontSize: "2.8em", marginBottom: "10px" }}
-				>
-					Tristan Deane
-				</SectionTitle>
-			</header> */}
-			<SectionTitle
-				main
-				center
-				// style={{ flex: "1 0 75%", fontSize: "2.8em", marginBottom: "10px" }}
-			>
+			<SectionTitle main center style={{ marginBottom: "0" }}>
 				Tristan Deane
 			</SectionTitle>
-			{/* subtitle */}
 			<SectionSubText>
-				Software Engineer 👨🏾‍💻 | DeFi Enthusiast 🔐 | Pyjama Warrior 🥋
+				Software Engineer 👨🏾‍💻 | DeFi Enthusiast 🔐 | PJ Warrior 🥋
 			</SectionSubText>
-			{/* body */}
-			<div style={{ margin: "10px 0" }}>
+			<div style={{ margin: "30px 0" }}>
+				<SectionText>Hey friend, thanks for dropping by! 👋🏾</SectionText>
 				<SectionText>
-					I'm a growth-orientend engineer with several years of full-stack
-					development experience.
+					Want to learn about the latest software and blockchain? Checkout the
+					blog. 📖
+				</SectionText>
+				<SectionText>
+					Otherwise, keep scrolling to learn a little more about me. 😁
 				</SectionText>
 			</div>
-			<div
-				style={{
-					display: "flex",
-					flexDirection: "column",
-					justifyContent: "center",
-				}}
-			>
-				<Button margin="0" onClick={() => (window.location = "#")}>
+			<HeroButtonContainer>
+				<HeroButton onClick={() => (window.location = "#")}>
 					Read the blog
-				</Button>
-				<Button alt="true" onClick={() => (window.location = "#projects")}>
+				</HeroButton>
+				<HeroButtonAlt onClick={() => (window.location = "#projects")}>
 					Discover projects
-				</Button>
-			</div>
+				</HeroButtonAlt>
+			</HeroButtonContainer>
 		</LeftSection>
 	</Section>
 );
