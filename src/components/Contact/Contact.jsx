@@ -13,7 +13,7 @@ function Contact() {
 		<Section id="contact">
 			<SectionDivider />
 			<br />
-			<SectionTitle>Let's Build Something Cool</SectionTitle>
+			<SectionTitle>Let&apos;s Build Something Cool</SectionTitle>
 			<SectionText>
 				Shoot me a message if you’re looking for a <em>goofy engineer</em>, have
 				a question, or just want to chat.

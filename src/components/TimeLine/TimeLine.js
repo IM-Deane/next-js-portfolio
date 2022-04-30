@@ -106,7 +106,7 @@ const Timeline = () => {
 				/>
 			</ProfileCard>
 			<SectionText style={{ marginTop: "20px" }}>
-				I'm a growth-orientend engineer with several years of full-stack
+				I&apos;m a growth-orientend engineer with several years of full-stack
 				development experience.
 			</SectionText>
 			<SectionText>
